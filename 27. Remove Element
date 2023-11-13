@@ -1,0 +1,9 @@
+int count=0;
+        for(int i=0;i<nums.length;i++){
+            if(val != nums[i]){
+                nums[count] = nums[i];
+                count++;
+              //  to yaha pe haman check kiya hai ki agar val !equal hai nums[i] to count ke andar us to  add kr do  or count ko ++ kr do is se hama extra array banaki koi zarurat nhi padagi.
+            }
+        }
+        return count;
